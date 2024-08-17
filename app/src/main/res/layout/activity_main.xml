@@ -1,0 +1,54 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan angka pertama"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan angka kedua"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah"/>
+
+    <Button
+        android:id="@+id/buttonSubtract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kurangi"/>
+
+    <Button
+        android:id="@+id/buttonMultiply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kalikan"/>
+
+    <Button
+        android:id="@+id/buttonDivide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bagi"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:textSize="24sp"
+        android:paddingTop="20dp"/>
+
+</LinearLayout>
